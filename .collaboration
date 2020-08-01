@@ -93,16 +93,7 @@
   },
   {
     "ModuleName": "客户信息列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "龚行",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2020-08-01T15:14:51.853029+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\页面集合\\客户信息列表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "FGC_母版页",
