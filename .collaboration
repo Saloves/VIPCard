@@ -138,5 +138,15 @@
   {
     "ModuleName": "f136f31a-5285-4164-b8e6-6a822fdf27bd",
     "ModuleType": 15
+  },
+  {
+    "ModuleName": "客户消费详情页",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "龚行",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2020-08-01T16:53:01.6219045+08:00",
+    "ModuleType": 1
   }
 ]
