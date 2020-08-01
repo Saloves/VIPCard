@@ -177,5 +177,15 @@
     },
     "LockDateTime": "2020-08-01T16:53:01.6219045+08:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "添加客户信息详情",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "龚行",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2020-08-01T17:21:20.049049+08:00",
+    "ModuleType": 1
   }
 ]
