@@ -1,0 +1,606 @@
+{
+  "Rows": {
+    "Sizes": {
+      "1": 25.0,
+      "3": 25.0,
+      "5": 25.0,
+      "7": 25.0,
+      "9": 25.0,
+      "11": 25.0,
+      "13": 25.0,
+      "14": 30.0,
+      "16": 25.0
+    },
+    "Count": 18
+  },
+  "Cols": {
+    "InLogicalVisibleIndexes": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "Count": 25
+  },
+  "Values": {
+    "1,1": "*",
+    "1,2": "客户姓名",
+    "3,1": "*",
+    "3,2": "性别",
+    "3,6": "男",
+    "5,1": "*",
+    "5,2": "联系电话",
+    "7,1": "其他联系方式",
+    "9,1": "账户余额",
+    "9,6": "0",
+    "11,1": "账户次数",
+    "11,6": 0,
+    "13,1": "地址",
+    "16,10": "取消"
+  },
+  "AttachInfos": {
+    "1,6": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "客户信息表",
+        "ColumnName": "客户姓名"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "数据不能为空"
+      }
+    },
+    "3,6": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, Forguncy",
+        "NoneItemText": "<空>",
+        "Style": 1,
+        "CellDefaultValue": "男",
+        "ItemSpace": 50,
+        "Items": [
+          {
+            "Value": "男",
+            "DisplayValue": "男"
+          },
+          {
+            "Value": "女",
+            "DisplayValue": "女"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "客户信息表",
+        "ColumnName": "性别"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "数据不能为空"
+      }
+    },
+    "5,6": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "客户信息表",
+        "ColumnName": "联系电话"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "数据不能为空"
+      }
+    },
+    "7,6": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "客户信息表",
+        "ColumnName": "其他联系方式"
+      }
+    },
+    "9,6": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "CellDefaultValue": "0"
+      },
+      "BindingInfo": {
+        "TableName": "客户信息表",
+        "ColumnName": "余额"
+      }
+    },
+    "11,6": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "CellDefaultValue": 0
+      },
+      "BindingInfo": {
+        "TableName": "客户信息表",
+        "ColumnName": "次数"
+      }
+    },
+    "13,6": {
+      "CellType": {
+        "$type": "Forguncy.MultilineTextBox, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "客户信息表",
+        "ColumnName": "地址"
+      }
+    },
+    "16,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=客户信息编辑详情!C17"
+                      }
+                    ]
+                  },
+                  "value": "添加",
+                  "Id": "07bae3e2-6c86-4652-a170-8ee718f72455"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                    "TableName": "客户信息表",
+                    "UpdateType": "add",
+                    "ShowConfirm": false,
+                    "ConfirmText": "您确定添加这条记录?",
+                    "UpdateValues": [],
+                    "ParamNameToSaveNewRowValue": "NewRow"
+                  }
+                ],
+                "ID": "ca49a134-2837-4ecc-a13b-82bf1f0b7ff3"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=客户信息编辑详情!C17"
+                      }
+                    ]
+                  },
+                  "value": "编辑",
+                  "Id": "7589cdd1-0631-4273-9378-f662c2c32827"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                    "TableName": "客户信息表",
+                    "ShowConfirm": false,
+                    "ConfirmText": "您确定要更新这行记录吗？",
+                    "UpdateValues": [],
+                    "ParamNameToSaveNewRowValue": "NewRow"
+                  }
+                ],
+                "ID": "66a8bfc7-11ab-4683-83ec-6ffb99a8f128"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, Forguncy",
+            "ReloadData": true
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "16,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, Forguncy",
+            "ReloadData": true
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "HorizontalAlignment": 1
+      },
+      {
+        "FontFamily": 2,
+        "FontWeight": 3,
+        "Formatter": 4
+      },
+      {
+        "Formatter": 5,
+        "HorizontalAlignment": 6
+      },
+      {
+        "FontFamily": 2,
+        "FontWeight": 3
+      },
+      {
+        "FontFamily": 2,
+        "HorizontalAlignment": 6,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "Foreground": 0,
+        "HorizontalAlignment": 1,
+        "VerticalAlignment": 8
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 5,
+        "HorizontalAlignment": 6
+      },
+      {
+        "FontFamily": 2
+      },
+      {
+        "FontFamily": 2,
+        "FontWeight": 3,
+        "Formatter": 4,
+        "HorizontalAlignment": 6
+      },
+      {
+        "FontWeight": 3,
+        "HorizontalAlignment": 6
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 9,
+        "HorizontalAlignment": 6
+      },
+      {
+        "HorizontalAlignment": 6
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 10,
+        "HorizontalAlignment": 6
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 5,
+        "VerticalAlignment": 11,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#FFFF0000",
+        "Right",
+        "Body",
+        "Bold",
+        "[AUTO]General",
+        "@",
+        "Center",
+        "Background 1 -15",
+        "Bottom",
+        "0.00",
+        "0",
+        "Top"
+      ],
+      "Borders": [
+        {
+          "Style": 2,
+          "Color": 7
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 1,
+      "1,6": 2,
+      "3,1": 0,
+      "3,2": 3,
+      "3,6": 4,
+      "3,7": 5,
+      "3,8": 5,
+      "3,9": 5,
+      "3,10": 5,
+      "3,11": 5,
+      "3,12": 5,
+      "3,13": 5,
+      "3,14": 5,
+      "3,15": 6,
+      "5,1": 7,
+      "5,2": 3,
+      "5,6": 8,
+      "6,1": 9,
+      "6,2": 9,
+      "6,3": 9,
+      "6,4": 9,
+      "7,1": 10,
+      "7,6": 8,
+      "9,1": 11,
+      "9,6": 12,
+      "10,3": 13,
+      "11,1": 11,
+      "11,6": 14,
+      "13,1": 11,
+      "13,6": 15,
+      "16,10": 9,
+      "16,11": 9,
+      "16,12": 9,
+      "16,13": 9,
+      "16,14": 9
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "7,1,1,5",
+    "9,1,1,5",
+    "11,1,1,5",
+    "13,1,1,5",
+    "1,2,1,4",
+    "3,2,1,4",
+    "5,2,1,4",
+    "1,6,1,10",
+    "5,6,1,10",
+    "7,6,1,10",
+    "3,6,1,10",
+    "9,6,1,10",
+    "11,6,1,10",
+    "13,6,2,10",
+    "16,2,1,5",
+    "16,10,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, Forguncy",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=客户信息编辑详情!C17"
+                  }
+                ]
+              },
+              "value": "编辑",
+              "Id": "4c1174a3-7930-4770-8066-6d6bd985d866"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                "PropertyItemsList": [
+                  {
+                    "Cell": {
+                      "SerializeProperty": "=客户信息编辑详情!G10"
+                    },
+                    "PropertyType": 5,
+                    "Value": true
+                  },
+                  {
+                    "Cell": {
+                      "SerializeProperty": "=客户信息编辑详情!G12"
+                    },
+                    "PropertyType": 5,
+                    "Value": true
+                  }
+                ]
+              }
+            ],
+            "ID": "3b429f9f-9414-436e-b30d-b4d5acbc3177"
+          }
+        ]
+      }
+    ],
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}
