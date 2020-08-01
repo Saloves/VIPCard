@@ -179,13 +179,13 @@
     "ModuleType": 1
   },
   {
-    "ModuleName": "添加客户信息详情",
+    "ModuleName": "客户信息编辑详情",
     "State": 3,
     "LockedBy": {
       "UserName": "龚行",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2020-08-01T17:21:20.049049+08:00",
+    "LockDateTime": "2020-08-01T17:41:44.2140672+08:00",
     "ModuleType": 1
   }
 ]
