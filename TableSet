@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TableSet>
+  <Relations>
+    <Item class="Forguncy.ForeignkeyInfomation" assembly="ForguncyDataAccess">
+      <ForeignColumn>客户ID</ForeignColumn>
+      <ForeignTable>客户会员卡信息表</ForeignTable>
+      <IsDetailTableRelation>False</IsDetailTableRelation>
+      <PrimaryColumn>ID</PrimaryColumn>
+      <PrimaryTable>客户信息表</PrimaryTable>
+      <RelationTypeOnDelete>None</RelationTypeOnDelete>
+      <RelationTypeOnUpdate>None</RelationTypeOnUpdate>
+    </Item>
+  </Relations>
+  <Tables>
+    <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+      <Columns>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <AutoIncrement>True</AutoIncrement>
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>ID</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <Name>客户姓名</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <Name>联系电话</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>其他联系方式</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <Name>性别</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>地址</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_Creator</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_CreateDate</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_LastModifier</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_LastModifyDate</Name>
+        </Item>
+      </Columns>
+      <Name>客户信息表</Name>
+      <PrimaryKey>
+        <Item type="System.String">
+          <Value>ID</Value>
+        </Item>
+      </PrimaryKey>
+      <Weight>0</Weight>
+    </Item>
+    <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+      <Columns>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <AutoIncrement>True</AutoIncrement>
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>ID</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <AutoGenreatedIDSetting>
+            <Composition>
+              <Item class="CommonUtilities.AutoIDComponent" assembly="CommonUtilities">
+                <ComponentType>StaticText</ComponentType>
+                <Content type="System.String">
+                  <Value>CARD-</Value>
+                </Content>
+              </Item>
+              <Item class="CommonUtilities.AutoIDComponent" assembly="CommonUtilities">
+                <ComponentType>Date</ComponentType>
+                <Content type="System.String">
+                  <Value>yyyymmdd</Value>
+                </Content>
+              </Item>
+              <Item class="CommonUtilities.AutoIDComponent" assembly="CommonUtilities">
+                <ComponentType>StaticText</ComponentType>
+                <Content type="System.String">
+                  <Value>-</Value>
+                </Content>
+              </Item>
+              <Item class="CommonUtilities.AutoIDComponent" assembly="CommonUtilities">
+                <ComponentType>Number</ComponentType>
+                <Content type="System.Int32">
+                  <Value>3</Value>
+                </Content>
+              </Item>
+            </Composition>
+            <GenerateTime>OpenPage</GenerateTime>
+            <IgnoreConflictWhenSave>False</IgnoreConflictWhenSave>
+            <ReusingMode>Never</ReusingMode>
+          </AutoGenreatedIDSetting>
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <IsAutoGenreatedIDSettingEnable>True</IsAutoGenreatedIDSettingEnable>
+          <Name>卡号</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Int64</ColumnType>
+          <Name>客户ID</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Double</ColumnType>
+          <Name>余额</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Int64</ColumnType>
+          <Name>次数</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_Creator</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_CreateDate</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_LastModifier</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_LastModifyDate</Name>
+        </Item>
+      </Columns>
+      <Name>客户会员卡信息表</Name>
+      <PrimaryKey>
+        <Item type="System.String">
+          <Value>ID</Value>
+        </Item>
+      </PrimaryKey>
+      <Weight>1</Weight>
+    </Item>
+  </Tables>
+</TableSet>

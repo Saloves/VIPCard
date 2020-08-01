@@ -1,0 +1,224 @@
+{
+  "Rows": {
+    "Sizes": {
+      "1": 10.0,
+      "2": 10.0,
+      "4": 10.0,
+      "5": 10.0
+    },
+    "Count": 36
+  },
+  "Cols": {
+    "Count": 63
+  },
+  "AttachInfos": {
+    "2,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "ImagePath": "fgc_logo_light.png"
+      }
+    },
+    "2,53": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, Forguncy",
+        "NavigateToHomePageWhenLogout": true,
+        "CellCustomValue": "%CurrentUser%"
+      }
+    },
+    "7,0": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "TemplateKey": "_RS_Gradient_ThemeStyle1",
+        "Items": [
+          {
+            "Text": "会员列表",
+            "IconPath": "Navigation/165_home_3.svg",
+            "SelectedIconColor": "Background 1",
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                "PageName": "会员信息列表页",
+                "PassValues": []
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Text": "菜单2",
+            "IconPath": "Navigation/183_table_2.svg",
+            "SelectedIconColor": "Background 1",
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Text": "菜单3",
+            "IconPath": "Chart/363_column_chart_2.svg",
+            "SelectedIconColor": "Background 1",
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "MenuLevelsStyle": [
+          {
+            "FontSize": 16.0,
+            "Height": 45.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          }
+        ]
+      }
+    },
+    "7,7": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "Foreground": 1
+      },
+      {
+        "Background": 2,
+        "FontSize": 13.333333333333332
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Text 2 0",
+        "#FFC8C8C8"
+      ]
+    },
+    "CellStyles": {
+      "1,13": 0,
+      "1,14": 0,
+      "1,15": 0,
+      "1,16": 0,
+      "1,17": 0,
+      "1,18": 0,
+      "1,19": 0,
+      "1,20": 0,
+      "1,21": 0,
+      "2,1": 0,
+      "2,2": 0,
+      "2,3": 0,
+      "2,4": 0,
+      "2,5": 0,
+      "2,6": 0,
+      "2,12": 0,
+      "2,13": 0,
+      "2,14": 0,
+      "2,15": 0,
+      "2,16": 0,
+      "2,17": 0,
+      "2,18": 0,
+      "2,19": 0,
+      "2,20": 0,
+      "2,21": 0,
+      "2,53": 1,
+      "3,1": 0,
+      "3,2": 0,
+      "3,3": 0,
+      "3,4": 0,
+      "3,5": 0,
+      "3,6": 0,
+      "3,12": 0,
+      "3,13": 0,
+      "3,14": 0,
+      "3,15": 0,
+      "3,16": 0,
+      "3,17": 0,
+      "3,18": 0,
+      "3,19": 0,
+      "3,20": 0,
+      "3,21": 0,
+      "4,1": 0,
+      "4,2": 0,
+      "4,3": 0,
+      "4,4": 0,
+      "4,5": 0,
+      "4,6": 0,
+      "4,12": 0,
+      "4,13": 0,
+      "4,14": 0,
+      "4,15": 0,
+      "4,16": 0,
+      "4,17": 0,
+      "4,18": 0,
+      "4,19": 0,
+      "4,20": 0,
+      "4,21": 0,
+      "5,12": 0,
+      "5,13": 0,
+      "5,14": 0,
+      "5,15": 0,
+      "5,16": 0,
+      "5,17": 0,
+      "5,18": 0,
+      "5,19": 0,
+      "5,20": 0,
+      "5,21": 0,
+      "7,0": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "2,53,3,10",
+    "7,0,29,7",
+    "7,7,29,56",
+    "2,1,3,6"
+  ],
+  "BackgroundPictures": [
+    {
+      "ForguncyPictureName": "PCMasterBanner",
+      "Stretch": 3,
+      "ForguncyPictureSourceType": 2,
+      "Name": "a0212117-67a3-4093-9b4e-6e0ac4ef44ad",
+      "Size": "1260,101"
+    },
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "ForguncyPictureName": "PCMasterBackground",
+      "Stretch": 0,
+      "ForguncyPictureSourceType": 2,
+      "Name": "727a4398-2932-40ee-8acf-1dcc2c6119f7",
+      "Location": "206,27",
+      "Size": "180,210"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, Forguncy",
+    "PageResponsiveMode": 4
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "Rows": {
+    "Count": 40
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "7,18": "我是首页"
+  },
+  "AttachInfos": {
+    "7,18": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "Text": "我是首页",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "7,18,4,9"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "MasterPageName": "母版页1",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "PageResponsiveMode": 4
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

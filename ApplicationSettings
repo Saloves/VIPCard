@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationSettings>
+  <IntegrateWithOtherApplication>
+    <Password>Z$8Mvx1olPs1</Password>
+  </IntegrateWithOtherApplication>
+  <StartPage>首页</StartPage>
+  <UserServicePort>13298</UserServicePort>
+  <WebSitePort>48907</WebSitePort>
+</ApplicationSettings>
